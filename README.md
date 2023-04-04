@@ -10,3 +10,9 @@ Contains coupling and decoupling priors of indices referencing the node index in
 
 # To use
 Simply run `python3 -m main` to compute communities over pokemon data-set (default) with priors given in `priors.json`
+You should get the following result (baseline: random cluster assignment):
+```
+baseline purity score:  33.734939759036145
+louvain own code with no-priors purity score :  55.42168674698795
+louvain with priors purity score:  61.44578313253012
+```
